@@ -5,6 +5,7 @@ body{
         font-weight: 400;
         font-style: normal;
         background-color:#185541;
+        width: 100%;
         
 }
 /*  */
@@ -93,8 +94,9 @@ body {
     animation: none;
   }
 }
-
-
+main,footer{
+    width: 100%;
+}
 
 /*  */
  header{
@@ -346,7 +348,7 @@ footer a{
       position: relative;
       .card__head {
         color: black;
-        background: rgba(255, 30, 173, 0.75);
+        background: rgba(116, 30, 255, 0.75);
         padding: 0.5em;
         transform: rotate(-90deg);
         transform-origin: 0% 0%;
